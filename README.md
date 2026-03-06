@@ -49,6 +49,12 @@
 </p>
 
 ---
+## 📊 GitHub Metrics Dashboard
+
+<p align="center">
+<img src="/github-metrics.svg" alt="Metrics"/>
+</p>
+
 
 ## 📈 Contribution Graph
 
