@@ -13,7 +13,7 @@
 - 💻 Interested in **Machine Learning, Blockchain & Web Development**
 - 🔭 Currently working on **AI & Data Science Projects**
 - 🌱 Learning **Advanced Machine Learning & System Design**
-- 📫 Reach me at: yoendramaurya954@gmail.com
+- 📫 Reach me at: yogendramaurya954@gmail.com
 
 ---
 
