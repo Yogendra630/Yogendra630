@@ -63,7 +63,7 @@
 
 <p align="center">
 
-<a href="https://www.linkedin.com/">
+<a href="www.linkedin.com/in/yogendra-maurya-04a510288">
 <img src="https://img.shields.io/badge/LinkedIn-8A2BE2?style=for-the-badge&logo=linkedin&logoColor=white"/>
 </a>
 
