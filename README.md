@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Yogendra</h1>
-<h3 align="center">Aspiring Software Developer | AI & ML Enthusiast | Blockchain Learner</h3>
+<h3 align="center">Aspiring Software Developer | AI & ML Enthusiast | Frontend developer</h3>
 
 <p align="center">
   <img src="https://readme-typing-svg.herokuapp.com/?color=8A2BE2&center=true&vCenter=true&lines=Machine+Learning+Developer;Blockchain+Developer;Full+Stack+Learner;Open+Source+Contributor">
