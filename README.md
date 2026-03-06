@@ -1,19 +1,20 @@
-<h1 align="center">Hi 👋, I'm Yogendra</h1>
-<h3 align="center">Aspiring Software Developer | AI & ML Enthusiast | Frontend developer</h3>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0f0c29,302b63,24243e&height=220&section=header&text=Yogendra%20Singh&fontSize=40&fontColor=ffffff&animation=fadeIn"/>
+
+<h1 align="center">Hi 👋, I'm Yogendra Maurya</h1>
+<h3 align="center">Machine Learning Developer | AI Enthusiast | Future Software Engineer</h3>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com/?color=8A2BE2&center=true&vCenter=true&lines=Machine+Learning+Developer;Blockchain+Developer;Full+Stack+Learner;Open+Source+Contributor">
+<img src="https://readme-typing-svg.herokuapp.com/?lines=Machine+Learning+Developer;Python+Programmer;Blockchain+Developer;Open+Source+Learner&center=true&width=500&height=45&color=BB86FC&vCenter=true&size=22">
 </p>
 
 ---
 
-## 🚀 About Me
+## 👨‍💻 About Me
 
-- 🎓 Computer Science Student
-- 💻 Interested in **Machine Learning, Blockchain & Web Development**
-- 🔭 Currently working on **AI & Data Science Projects**
-- 🌱 Learning **Advanced Machine Learning & System Design**
-- 📫 Reach me at: yogendramaurya954@gmail.com
+🎓 B.Tech Computer Science Student  
+🤖 Interested in **Machine Learning & AI**  
+🔐 Exploring **Devops**  
+🚀 Building projects for **Software Engineering placements**
 
 ---
 
@@ -21,7 +22,7 @@
 
 <p align="center">
 
-<img src="https://skillicons.dev/icons?i=python,java,js,html,css,mongodb,mysql,git,github,vscode" />
+<img src="https://skillicons.dev/icons?i=python,java,js,html,css,mongodb,mysql,git,github,vscode,linux"/>
 
 </p>
 
@@ -31,9 +32,9 @@
 
 <p align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=Yogendra630&show_icons=true&theme=tokyonight" height="180"/>
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=Yogendra630&show_icons=true&theme=tokyonight"/>
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Yogendra630&layout=compact&theme=tokyonight" height="180"/>
+<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Yogendra630&layout=compact&theme=tokyonight"/>
 
 </p>
 
@@ -43,36 +44,62 @@
 
 <p align="center">
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Yogendra630&theme=tokyonight" />
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=Yogendra630&theme=tokyonight"/>
 
 </p>
 
 ---
 
-## 🏆 GitHub Achievements
+## 📈 Contribution Graph
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Yogendra630&theme=tokyo-night"/>
+
+---
+
+## 🧠 Featured Projects
+
+🚀 **Stock Price Prediction using Machine Learning**
+
+🚀 **AI Code Guardian – AI Bug Detection System**
+
+🚀 ** Urban Happiness Index Analysis**
+
+
+
+---
+
+## 👀 Profile Visitors
 
 <p align="center">
 
-<img src="https://github-profile-trophy.vercel.app/?username=Yogendra630&theme=tokyonight&no-frame=true&row=1&column=6"/>
+<img src="https://komarev.com/ghpvc/?username=Yogendra630&label=Profile%20views&color=blueviolet&style=for-the-badge">
 
 </p>
 
 ---
 
-## 🌐 Connect With Me
+## 🐍 Contribution Snake
+
+![snake gif](https://github.com/Yogendra630/Yogendra630/blob/output/github-contribution-grid-snake.svg)
+
+---
+
+## 📫 Connect With Me
 
 <p align="center">
-
-<a href="www.linkedin.com/in/yogendra-maurya-04a510288">
-<img src="https://img.shields.io/badge/LinkedIn-8A2BE2?style=for-the-badge&logo=linkedin&logoColor=white"/>
-</a>
 
 <a href="https://github.com/Yogendra630">
-<img src="https://img.shields.io/badge/GitHub-8A2BE2?style=for-the-badge&logo=github&logoColor=white"/>
+<img src="https://img.shields.io/badge/GitHub-Profile-black?style=for-the-badge&logo=github">
+</a>
+
+<a href="https://www.linkedin.com/in/yogendra-maurya-04a510288/">
+<img src="https://img.shields.io/badge/LinkedIn-Profile-blue?style=for-the-badge&logo=linkedin">
 </a>
 
 </p>
 
 ---
 
-⭐ From [Yogendra630](https://github.com/Yogendra630)
+⭐ **"Code. Learn. Build. Repeat."**
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0f0c29,302b63,24243e&height=120&section=footer"/>
