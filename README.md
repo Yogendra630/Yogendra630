@@ -62,7 +62,7 @@
 
 🚀 **AI Code Guardian – AI Bug Detection System**
 
-🚀 ** Urban Happiness Index Analysis**
+
 
 
 
@@ -78,11 +78,6 @@
 
 ---
 
-## 🐍 Contribution Snake
-
-![snake gif](https://github.com/Yogendra630/Yogendra630/blob/output/github-contribution-grid-snake.svg)
-
----
 
 ## 📫 Connect With Me
 
@@ -100,6 +95,10 @@
 
 ---
 
-⭐ **"Code. Learn. Build. Repeat."**
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0f0c29,302b63,24243e&height=120&section=footer"/>
+
+
+
+
+
+
