@@ -1,10 +1,10 @@
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0f0c29,302b63,24243e&height=220&section=header&text=Yogendra%20Singh&fontSize=40&fontColor=ffffff&animation=fadeIn"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0f0c29,302b63,24243e&height=220&section=header&text=Yogendra%20Maurya&fontSize=40&fontColor=ffffff&animation=fadeIn"/>
 
 <h1 align="center">Hi 👋, I'm Yogendra Maurya</h1>
 <h3 align="center">Machine Learning Developer | AI Enthusiast | Future Software Engineer</h3>
 
 <p align="center">
-<img src="https://readme-typing-svg.herokuapp.com/?lines=Machine+Learning+Developer;Python+Programmer;Blockchain+Developer;Open+Source+Learner&center=true&width=500&height=45&color=BB86FC&vCenter=true&size=22">
+<img src="https://readme-typing-svg.herokuapp.com/?lines=Machine+Learning+Developer;Python+Programmer;Open+Source+Learner&center=true&width=500&height=45&color=BB86FC&vCenter=true&size=22">
 </p>
 
 ---
