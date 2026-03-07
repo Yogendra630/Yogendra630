@@ -62,13 +62,13 @@
 <img src="https://github-profile-trophy.vercel.app/?username=Yogendra630&theme=matrix&no-frame=true&margin-w=15"/>
 
 </p>
-# 🧩 Competitive Programming
+<!--# 🧩 Competitive Programming
 
-<p align="center">
+<!--<p align="center">
 
 <img src="https://leetcard.jacoblin.cool/Yogendra980?theme=dark&font=baloo&ext=heatmap"/>
 
-</p>
+</p><!-->
 
 ---
 
