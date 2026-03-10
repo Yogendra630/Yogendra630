@@ -83,9 +83,8 @@
 | Project | Description | Tech |
 |------|-------------|------|
 | 🚀 Stock Price Prediction | Machine Learning model predicting stock trends | Python, ML |
-| 🛡 AI Code Guardian | AI-based bug detection system | Python, AI |
-| 🔐 Blockchain Voting System | Secure voting system using blockchain | Blockchain |
-| 🤖 AI Interview Platform | AI-based interview simulator | Python, NLP |
+
+
 
 ---
 
