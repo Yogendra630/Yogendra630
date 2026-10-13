@@ -1,4 +1,4 @@
-# Yogendra Maurya · Developer Profile
+# Yogendra Maurya · 
 
 <p align="center"><img src="./assets/hero.svg?v=1" alt="Yogendra Maurya — software developer profile" width="100%"></p>
 
