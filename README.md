@@ -33,9 +33,4 @@
 
 **Build · Learn · Improve** — B.Tech Computer Science & Engineering undergraduate at NIET, Greater Noida (Class of 2027).
 
-### Asset and license notes
 
-- `assets/id.png` and `assets/right_pointing.png` are the supplied portrait PNGs copied without modification, preserving their original alpha channels. The SVGs embed these exact PNG bytes as data URIs so they make no network requests.
-- SVG motion uses CSS and SMIL; there is no JavaScript or `foreignObject` inside SVGs. Reduced-motion preferences are respected for CSS animations; animated SMIL behavior may vary by renderer.
-- This package uses system font stacks (Inter when available, then system sans-serif) rather than bundling third-party font files. No custom font license is implied. If you provide licensed WOFF2 files, they can be embedded with their license texts.
-- Project descriptions reflect the supplied HTML. Direct repository links and metrics are intentionally omitted until verified.
