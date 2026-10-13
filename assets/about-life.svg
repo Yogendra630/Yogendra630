@@ -1,0 +1,182 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 300" width="100%" height="300" preserveAspectRatio="xMidYMid meet">
+  <defs>
+    <linearGradient id="about-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#070B16"/>
+      <stop offset="100%" stop-color="#0A1124"/>
+    </linearGradient>
+    <linearGradient id="about-border" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#247BFF" stop-opacity="0.7"/>
+      <stop offset="50%" stop-color="#3B82F6" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#FF354F" stop-opacity="0.7"/>
+    </linearGradient>
+    <linearGradient id="about-accent-line" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#247BFF"/>
+      <stop offset="100%" stop-color="#FF354F"/>
+    </linearGradient>
+    <pattern id="about-grid" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#247BFF" stroke-width="0.5" stroke-opacity="0.08"/>
+    </pattern>
+  </defs>
+
+  <style>
+    @keyframes about-slide-1 {
+      0%, 30% { opacity: 1; transform: translateX(0); }
+      33%, 97% { opacity: 0; transform: translateX(12px); }
+      100% { opacity: 1; transform: translateX(0); }
+    }
+    @keyframes about-slide-2 {
+      0%, 30% { opacity: 0; transform: translateX(-12px); }
+      33.3%, 63.3% { opacity: 1; transform: translateX(0); }
+      66.6%, 100% { opacity: 0; transform: translateX(12px); }
+    }
+    @keyframes about-slide-3 {
+      0%, 63.3% { opacity: 0; transform: translateX(-12px); }
+      66.6%, 96.6% { opacity: 1; transform: translateX(0); }
+      100% { opacity: 0; transform: translateX(12px); }
+    }
+    @keyframes about-prog-1 {
+      0% { width: 0; }
+      33.3% { width: 220px; }
+      33.4%, 100% { width: 220px; opacity: 0.4; }
+    }
+    @keyframes about-prog-2 {
+      0%, 33.3% { width: 0; }
+      66.6% { width: 220px; }
+      66.7%, 100% { width: 220px; opacity: 0.4; }
+    }
+    @keyframes about-prog-3 {
+      0%, 66.6% { width: 0; }
+      100% { width: 220px; }
+    }
+
+    .about-font { font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; }
+    .slide-c-1 { animation: about-slide-1 12s ease-in-out infinite; }
+    .slide-c-2 { animation: about-slide-2 12s ease-in-out infinite; }
+    .slide-c-3 { animation: about-slide-3 12s ease-in-out infinite; }
+    .bar-c-1 { animation: about-prog-1 12s linear infinite; }
+    .bar-c-2 { animation: about-prog-2 12s linear infinite; }
+    .bar-c-3 { animation: about-prog-3 12s linear infinite; }
+
+    @media (prefers-reduced-motion: reduce) {
+      .slide-c-1 { opacity: 1 !important; transform: none !important; animation: none !important; }
+      .slide-c-2, .slide-c-3 { display: none !important; }
+      .bar-c-1, .bar-c-2, .bar-c-3 { animation: none !important; width: 220px !important; }
+    }
+  </style>
+
+  <!-- Frame -->
+  <rect x="2" y="2" width="846" height="296" rx="16" fill="url(#about-bg)" stroke="url(#about-border)" stroke-width="1.5"/>
+  <rect x="2" y="2" width="846" height="296" rx="16" fill="url(#about-grid)"/>
+
+  <!-- Header -->
+  <g class="about-font" transform="translate(44, 38)">
+    <rect x="0" y="-8" width="4" height="22" rx="2" fill="url(#about-accent-line)"/>
+    <text x="14" y="8" fill="#F5F7FB" font-size="16" font-weight="700" letter-spacing="1.5">ABOUT ME &amp; ENGINEERING APPROACH</text>
+    <text x="14" y="26" fill="#8E9BB5" font-size="12" font-weight="500">Computer Science Undergraduate @ NIET, Greater Noida • Class of 2027</text>
+  </g>
+
+  <!-- Progress Bar Indicators (Carousel Segments: 4s each = 12s cycle) -->
+  <g class="about-font" transform="translate(44, 86)">
+    <!-- Segment 1 Track -->
+    <rect x="0" y="0" width="240" height="4" rx="2" fill="#162238"/>
+    <rect x="0" y="0" width="0" height="4" rx="2" fill="#247BFF" class="bar-c-1"/>
+    <text x="0" y="18" fill="#93C5FD" font-size="10.5" font-weight="600" letter-spacing="0.5">01 / SOFTWARE ARCHITECTURE</text>
+
+    <!-- Segment 2 Track -->
+    <rect x="260" y="0" width="240" height="4" rx="2" fill="#162238"/>
+    <rect x="260" y="0" width="0" height="4" rx="2" fill="#3B82F6" class="bar-c-2"/>
+    <text x="260" y="18" fill="#93C5FD" font-size="10.5" font-weight="600" letter-spacing="0.5">02 / AI &amp; MACHINE LEARNING</text>
+
+    <!-- Segment 3 Track -->
+    <rect x="520" y="0" width="240" height="4" rx="2" fill="#162238"/>
+    <rect x="520" y="0" width="0" height="4" rx="2" fill="#FF354F" class="bar-c-3"/>
+    <text x="520" y="18" fill="#FCA5A5" font-size="10.5" font-weight="600" letter-spacing="0.5">03 / OPEN SOURCE &amp; DEVOPS</text>
+  </g>
+
+  <!-- Interactive Slide Stage (Swaps every 4s) -->
+  <g class="about-font" transform="translate(44, 130)">
+    <!-- SLIDE 1: Software Architecture -->
+    <g class="slide-c-1">
+      <rect x="0" y="0" width="762" height="98" rx="10" fill="#0C1428" stroke="#1D2E54" stroke-width="1"/>
+      <circle cx="28" cy="28" r="12" fill="#152747"/>
+      <text x="28" y="32" fill="#38BDF8" font-size="13" font-weight="700" text-anchor="middle">⚡</text>
+      <text x="50" y="25" fill="#F1F5F9" font-size="15" font-weight="700">Robust Systems &amp; Clean Backend Architecture</text>
+      <text x="50" y="44" fill="#94A3B8" font-size="12.5" font-weight="400">
+        Dedicated to building resilient applications with Java, Spring Boot, and RESTful microservices.
+      </text>
+      <text x="50" y="62" fill="#94A3B8" font-size="12.5" font-weight="400">
+        Prioritizing clean MVC separation, schema normalization, JPA/Hibernate queries, and scalable design.
+      </text>
+      <!-- Tag badges -->
+      <g transform="translate(50, 72)">
+        <text x="0" y="12" fill="#38BDF8" font-size="10.5" font-weight="600">CORE FOCUS:</text>
+        <text x="80" y="12" fill="#CBD5E1" font-size="10.5" font-weight="500">Java • Spring Boot • REST APIs • MySQL • System Design</text>
+      </g>
+    </g>
+
+    <!-- SLIDE 2: AI & Machine Learning -->
+    <g class="slide-c-2">
+      <rect x="0" y="0" width="762" height="98" rx="10" fill="#0C1428" stroke="#1D2E54" stroke-width="1"/>
+      <circle cx="28" cy="28" r="12" fill="#152747"/>
+      <text x="28" y="32" fill="#60A5FA" font-size="13" font-weight="700" text-anchor="middle">🧠</text>
+      <text x="50" y="25" fill="#F1F5F9" font-size="15" font-weight="700">Applied Machine Learning &amp; AI Engineering</text>
+      <text x="50" y="44" fill="#94A3B8" font-size="12.5" font-weight="400">
+        Developing predictive machine learning models using LSTM neural networks, TensorFlow, and Scikit-learn.
+      </text>
+      <text x="50" y="62" fill="#94A3B8" font-size="12.5" font-weight="400">
+        Investigating RAG workflows, LangChain integrations, FAISS embeddings, and intelligent data pipelines.
+      </text>
+      <!-- Tag badges -->
+      <g transform="translate(50, 72)">
+        <text x="0" y="12" fill="#60A5FA" font-size="10.5" font-weight="600">CORE FOCUS:</text>
+        <text x="80" y="12" fill="#CBD5E1" font-size="10.5" font-weight="500">Python • TensorFlow • Keras • Scikit-learn • LangChain • RAG</text>
+      </g>
+    </g>
+
+    <!-- SLIDE 3: Open Source & DevOps -->
+    <g class="slide-c-3">
+      <rect x="0" y="0" width="762" height="98" rx="10" fill="#0C1428" stroke="#2E1C2B" stroke-width="1"/>
+      <circle cx="28" cy="28" r="12" fill="#2E1724"/>
+      <text x="28" y="32" fill="#FF354F" font-size="13" font-weight="700" text-anchor="middle">🚀</text>
+      <text x="50" y="25" fill="#F1F5F9" font-size="15" font-weight="700">Open Source Contributor &amp; DevOps Explorer</text>
+      <text x="50" y="44" fill="#94A3B8" font-size="12.5" font-weight="400">
+        Actively collaborating on open-source ecosystems (OpenMontage contributor, OpenSourceMatchmaker creator).
+      </text>
+      <text x="50" y="62" fill="#94A3B8" font-size="12.5" font-weight="400">
+        Utilizing Git version control, Linux environments, Docker containerization, and AWS cloud services.
+      </text>
+      <!-- Tag badges -->
+      <g transform="translate(50, 72)">
+        <text x="0" y="12" fill="#FF354F" font-size="10.5" font-weight="600">CORE FOCUS:</text>
+        <text x="80" y="12" fill="#CBD5E1" font-size="10.5" font-weight="500">Open Source • Docker • Linux CLI • Git &amp; GitHub • AWS</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- Bottom Core Philosophy Bar -->
+  <g class="about-font" transform="translate(44, 252)">
+    <text x="0" y="16" fill="#64748B" font-size="11" font-weight="700" letter-spacing="1.5">LEARNING PHILOSOPHY:</text>
+    
+    <g transform="translate(160, 0)">
+      <rect x="0" y="2" width="72" height="20" rx="4" fill="#10192E" stroke="#247BFF" stroke-width="1" stroke-opacity="0.4"/>
+      <text x="36" y="16" fill="#93C5FD" font-size="10.5" font-weight="700" text-anchor="middle">1. BUILD</text>
+
+      <text x="82" y="16" fill="#475569" font-size="12">→</text>
+
+      <rect x="98" y="2" width="72" height="20" rx="4" fill="#10192E" stroke="#247BFF" stroke-width="1" stroke-opacity="0.4"/>
+      <text x="134" y="16" fill="#93C5FD" font-size="10.5" font-weight="700" text-anchor="middle">2. LEARN</text>
+
+      <text x="180" y="16" fill="#475569" font-size="12">→</text>
+
+      <rect x="196" y="2" width="82" height="20" rx="4" fill="#10192E" stroke="#247BFF" stroke-width="1" stroke-opacity="0.4"/>
+      <text x="237" y="16" fill="#93C5FD" font-size="10.5" font-weight="700" text-anchor="middle">3. IMPROVE</text>
+
+      <text x="288" y="16" fill="#475569" font-size="12">→</text>
+
+      <rect x="304" y="2" width="66" height="20" rx="4" fill="#24121C" stroke="#FF354F" stroke-width="1" stroke-opacity="0.5"/>
+      <text x="337" y="16" fill="#FCA5A5" font-size="10.5" font-weight="700" text-anchor="middle">4. SHIP</text>
+    </g>
+
+    <text x="760" y="16" fill="#475569" font-size="11" font-weight="500" text-anchor="end">Auto-refresh: 4s / slide</text>
+  </g>
+</svg>
